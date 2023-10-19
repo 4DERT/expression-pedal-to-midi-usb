@@ -1,28 +1,28 @@
 # Expression pedal to MIDI USB
 
-![schematic](images/1.jpg)
-![schematic](images/2.jpg)
-![schematic](images/3.jpg)
+<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/1.jpg width=600><br>
+<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/2.jpg width=300>
+<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/3.jpg width=300><br>
 
 A Raspberry Pi Pico-based device that takes an expression pedal output via a TRS 1/4" jack and converts it to a USB output.
 
-# Instalation
+## Instalation
 Put your Raspberry Pi Pico into Bootsel mode by pressing the Bootsel button and then plug it into your computer. When the device appears as a mass storage device, simply drag and drop the UF2 file.
 
-# Usage 
+## Usage 
 1. Connect the MIDI expression pedal to the 1/4" TRS stereo jack socket on the device.
 2. Connect the device to your computer using a USB cable.
 3. [Calibrate your device](#calibration)
 4. Open your MIDI software on your computer (e.g., DAW) and configure it to receive data from the device.
 5. Begin using the MIDI expression pedal, and the device will transmit the data to your computer.
 
-# Calibration
+## Calibration
 1. Hold the button on the side of the device until the LED light starts flashing slowly.
 2. Next, move your pedal from the minimum to the maximum position and set it approximately in the middle position.
 3. Once you've completed step 2, press the button again. The LED will start flashing rapidly, indicating that the device is learning electrical noise values to prevent unintentional data transmission to the computer when you're not moving the pedal.
 4. To finish the calibration process, press the button once more. The settings will be saved in the flash memory and will load automatically during the next device startup.
 
-# Parts List:
+## Parts List:
 - Raspberry Pi Pico
 - 1/4" TRS stereo jack socket
 - 5mm LED 
@@ -34,5 +34,7 @@ Put your Raspberry Pi Pico into Bootsel mode by pressing the Bootsel button and 
 - 4x M3 Thread Knurled Brass Threaded Heat Set
 - 4x M3 Head Bolt
 
-# Schematic
-![schematic](images/schematic.svg)
+You can print the case on a 3D printer, the files are in the folder 'stl'
+
+## Schematic
+<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/schematic.svg width=600><br>
