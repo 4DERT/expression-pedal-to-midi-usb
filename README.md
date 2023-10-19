@@ -1,8 +1,8 @@
 # Expression pedal to MIDI USB
 
-<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/1.jpg width=600><br>
-<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/2.jpg width=300>
-<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/3.jpg width=300><br>
+<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/1.jpg width=800><br>
+<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/2.jpg width=400>
+<img src=https://raw.githubusercontent.com/4DERT/expression-pedal-to-midi-usb/main/images/3.jpg width=400><br>
 
 A Raspberry Pi Pico-based device that takes an expression pedal output via a TRS 1/4" jack and converts it to a USB output.
 
